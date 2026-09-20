@@ -1,0 +1,31 @@
+id: hacker-news
+version: 1
+matches:
+  - "https://news.ycombinator.com/*"
+description: "Hacker News front page and comment threads"
+fetchMode: dom
+content:
+  item: ".athing"
+  id:
+    selector: "span[id^='top_']"
+    attribute: "id"
+  title:
+    selector: ".titleline a"
+  url:
+    selector: ".titleline a"
+    attribute: "href"
+  author:
+    selector: ".hnuser"
+  body:
+    selector: ".titleline"
+comments:
+  container: ".comment"
+  author:
+    selector: ".hnuser"
+  body:
+    selector: ".commtext"
+actions:
+  open:
+    selector: ".titleline a"
+  reply:
+    selector: "a[href*='reply']"

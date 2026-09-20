@@ -1,0 +1,18 @@
+id: generic-article
+version: 1
+matches:
+  - "https://*/*"
+  - "http://*/*"
+description: "Fallback article extraction"
+fetchMode: dom
+content:
+  item: "article"
+  title: "h1, h2"
+  url: "a"
+  body: "p"
+  image:
+    selector: "img"
+    attribute: "src"
+actions:
+  open:
+    selector: "a"

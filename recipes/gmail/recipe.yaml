@@ -1,0 +1,40 @@
+id: gmail
+version: 1
+matches:
+  - "https://mail.google.com/*"
+description: "Gmail views: inbox, labels, and search (uses your login via background tab)"
+fetchMode: tab-dom
+content:
+  item: "tr.zA"
+  id:
+    selector: ""
+    attribute: "data-legacy-thread-id"
+  title:
+    selector: "span.bog"
+  author:
+    selector: "span[email]"
+  body:
+    selector: "span.y2"
+  timestamp:
+    selector: "td.xW span"
+comments:
+  container: "div.a3s"
+  author:
+    selector: "span.gD"
+  body:
+    selector: "div.a3s"
+actions:
+  open:
+    selector: "tr.zA"
+  archive:
+    selector: "div[aria-label='Archive']"
+  mark-read:
+    selector: "div[aria-label='Mark as read']"
+  mark-unread:
+    selector: "div[aria-label='Mark as unread']"
+  star:
+    selector: "span[aria-label^='Star']"
+  reply:
+    selector: "div[aria-label='Reply']"
+  send:
+    selector: "div[aria-label^='Send']"

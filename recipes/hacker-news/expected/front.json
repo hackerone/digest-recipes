@@ -1,0 +1,4 @@
+{
+  "items": 2,
+  "first": { "nativeIdContains": "top_123", "title": "First story", "url": "https://example.com/a" }
+}

@@ -1,0 +1,22 @@
+id: reddit
+version: 1
+matches:
+  - "https://www.reddit.com/*"
+  - "https://old.reddit.com/*"
+  - "https://reddit.com/*"
+  - "https://m.reddit.com/*"
+description: "Reddit posts with scores and comments (uses your login via background tab)"
+fetchMode: tab-json
+content:
+  item: "div[data-testid='post-container']"
+  title: "h3"
+  url: "a[href*='/comments/']"
+  author: "a[href*='/user/']"
+  body: "div[data-testid='post-content']"
+comments:
+  container: "div[data-testid='comment']"
+  author: "a[href*='/user/']"
+  body: "div[data-testid='comment-body']"
+actions:
+  open:
+    selector: "a[href*='/comments/']"

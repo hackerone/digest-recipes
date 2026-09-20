@@ -1,0 +1,11 @@
+{
+  "name": "digest-recipes",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Community recipe registry for the Digest Chrome extension.",
+  "scripts": {
+    "validate": "node scripts/validate.mjs",
+    "test": "node scripts/test.mjs"
+  }
+}

@@ -1,0 +1,31 @@
+[
+  {
+    "id": "hacker-news",
+    "version": 1,
+    "matches": ["https://news.ycombinator.com/*"],
+    "description": "Hacker News front page and comment threads"
+  },
+  {
+    "id": "reddit",
+    "version": 1,
+    "matches": [
+      "https://www.reddit.com/*",
+      "https://old.reddit.com/*",
+      "https://reddit.com/*",
+      "https://m.reddit.com/*"
+    ],
+    "description": "Reddit posts with scores and comments (uses your login via background tab)"
+  },
+  {
+    "id": "gmail",
+    "version": 1,
+    "matches": ["https://mail.google.com/*"],
+    "description": "Gmail views: inbox, labels, and search (uses your login via background tab)"
+  },
+  {
+    "id": "generic-article",
+    "version": 1,
+    "matches": ["https://*/*", "http://*/*"],
+    "description": "Fallback article extraction"
+  }
+]
