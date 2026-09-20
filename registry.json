@@ -7,7 +7,7 @@
   },
   {
     "id": "reddit",
-    "version": 3,
+    "version": 4,
     "matches": [
       "https://www.reddit.com/*",
       "https://old.reddit.com/*",

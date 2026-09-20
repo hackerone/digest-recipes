@@ -1,5 +1,5 @@
 id: reddit
-version: 3
+version: 4
 matches:
   - "https://www.reddit.com/*"
   - "https://old.reddit.com/*"
@@ -41,7 +41,7 @@ commentActions:
     selector: ":is([data-action-bar-action='downvote'], .arrow.down)"
     kind: toggle
   reply:
-    selector: "button[aria-label='Reply']"
+    selector: ":is(button[aria-label='Reply'], [data-action-bar-action='reply'])"
     kind: composer
     composer: "div[contenteditable='true']"
     submit: "button[type='submit']"
