@@ -1,5 +1,5 @@
 id: reddit
-version: 4
+version: 5
 matches:
   - "https://www.reddit.com/*"
   - "https://old.reddit.com/*"
@@ -30,8 +30,8 @@ actions:
   reply:
     selector: "button[aria-label='Reply']"
     kind: composer
-    composer: "div[contenteditable='true']"
-    submit: "button[type='submit']"
+    composer: "shreddit-composer div[slot='rte']"
+    submit: "#comment-composer-submit-button"
     confirm: true
 commentActions:
   upvote:
@@ -43,6 +43,6 @@ commentActions:
   reply:
     selector: ":is(button[aria-label='Reply'], [data-action-bar-action='reply'])"
     kind: composer
-    composer: "div[contenteditable='true']"
-    submit: "button[type='submit']"
+    composer: "shreddit-composer div[slot='rte']"
+    submit: "#comment-composer-submit-button"
     confirm: true
