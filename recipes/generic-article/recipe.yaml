@@ -5,6 +5,9 @@ matches:
   - "http://*/*"
 description: "Fallback article extraction"
 fetchMode: dom
+siteIcon:
+  selector: "link[rel~='icon']"
+  attribute: "href"
 content:
   item: "article"
   title: "h1, h2"

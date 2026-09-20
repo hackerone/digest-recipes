@@ -51,6 +51,7 @@ function checkRecipe(recipe, source) {
       if (k !== "container") checkField(v, `${source}: comments.${k}`);
     }
   }
+  if (recipe.siteIcon !== undefined) checkField(recipe.siteIcon, `${source}: siteIcon`);
   if (recipe.actions !== undefined) {
     for (const [name, rule] of Object.entries(recipe.actions)) {
       if (!rule || typeof rule.selector !== "string" || !rule.selector) {

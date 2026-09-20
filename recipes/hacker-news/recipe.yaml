@@ -4,6 +4,9 @@ matches:
   - "https://news.ycombinator.com/*"
 description: "Hacker News front page and comment threads"
 fetchMode: dom
+siteIcon:
+  selector: "link[rel~='icon']"
+  attribute: "href"
 content:
   item: ".athing"
   id:

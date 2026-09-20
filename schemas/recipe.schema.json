@@ -15,6 +15,7 @@
     },
     "description": { "type": "string" },
     "icon": { "type": "string" },
+    "siteIcon": { "$ref": "#/definitions/field" },
     "fetchMode": { "type": "string", "enum": ["dom", "tab-json", "tab-dom"] },
     "content": {
       "type": "object",

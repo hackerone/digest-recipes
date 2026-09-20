@@ -4,6 +4,9 @@ matches:
   - "https://mail.google.com/*"
 description: "Gmail views: inbox, labels, and search (uses your login via background tab)"
 fetchMode: tab-dom
+siteIcon:
+  selector: "link[rel~='icon']"
+  attribute: "href"
 content:
   item: "tr.zA"
   id:
