@@ -45,15 +45,57 @@
     },
     "actions": {
       "type": "object",
-      "additionalProperties": {
-        "type": "object",
-        "required": ["selector"],
-        "additionalProperties": false,
-        "properties": { "selector": { "type": "string", "minLength": 1 } }
-      }
+      "propertyNames": {
+        "enum": [
+          "open",
+          "like",
+          "dislike",
+          "upvote",
+          "downvote",
+          "reply",
+          "send",
+          "archive",
+          "star",
+          "mark-read",
+          "mark-unread"
+        ]
+      },
+      "additionalProperties": { "$ref": "#/definitions/actionRule" }
+    },
+    "commentActions": {
+      "type": "object",
+      "description": "Comment-level selectors; fall back to actions when absent.",
+      "propertyNames": {
+        "enum": [
+          "open",
+          "like",
+          "dislike",
+          "upvote",
+          "downvote",
+          "reply",
+          "send",
+          "archive",
+          "star",
+          "mark-read",
+          "mark-unread"
+        ]
+      },
+      "additionalProperties": { "$ref": "#/definitions/actionRule" }
     }
   },
   "definitions": {
+    "actionRule": {
+      "type": "object",
+      "required": ["selector"],
+      "additionalProperties": false,
+      "properties": {
+        "selector": { "type": "string", "minLength": 1 },
+        "kind": { "type": "string", "enum": ["toggle", "composer"] },
+        "composer": { "type": "string", "minLength": 1 },
+        "submit": { "type": "string", "minLength": 1 },
+        "confirm": { "type": "boolean" }
+      }
+    },
     "field": {
       "anyOf": [
         { "type": "string" },

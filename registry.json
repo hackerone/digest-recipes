@@ -23,6 +23,12 @@
     "description": "Gmail views: inbox, labels, and search (uses your login via background tab)"
   },
   {
+    "id": "x",
+    "version": 1,
+    "matches": ["https://x.com/*", "https://twitter.com/*"],
+    "description": "X timeline posts with replies (uses your login via background tab)"
+  },
+  {
     "id": "generic-article",
     "version": 1,
     "matches": ["https://*/*", "http://*/*"],

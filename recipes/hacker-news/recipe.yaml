@@ -30,5 +30,20 @@ comments:
 actions:
   open:
     selector: ".titleline a"
+  upvote:
+    selector: "a[href*='vote']"
+    kind: toggle
   reply:
     selector: "a[href*='reply']"
+    kind: composer
+    composer: "textarea"
+    submit: "input[type='submit']"
+commentActions:
+  upvote:
+    selector: "a[href*='vote']"
+    kind: toggle
+  reply:
+    selector: "a[href*='reply']"
+    kind: composer
+    composer: "textarea"
+    submit: "input[type='submit']"

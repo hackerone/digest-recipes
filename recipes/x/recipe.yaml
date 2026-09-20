@@ -1,0 +1,39 @@
+id: x
+version: 1
+matches:
+  - "https://x.com/*"
+  - "https://twitter.com/*"
+description: "X timeline posts with replies (uses your login via background tab)"
+fetchMode: tab-dom
+content:
+  item: 'article[data-testid="tweet"]'
+  title: 'div[data-testid="tweetText"]'
+  url: "a[href*='/status/']"
+  author: 'div[data-testid="User-Name"]'
+  body: 'div[data-testid="tweetText"]'
+comments:
+  container: 'article[data-testid="tweet"]'
+  author: 'div[data-testid="User-Name"]'
+  body: 'div[data-testid="tweetText"]'
+actions:
+  open:
+    selector: "a[href*='/status/']"
+  like:
+    selector: 'button[data-testid="like"]'
+    kind: toggle
+  reply:
+    selector: 'button[data-testid="reply"]'
+    kind: composer
+    composer: 'div[data-testid="tweetTextarea_0"]'
+    submit: 'button[data-testid="tweetButton"]'
+    confirm: true
+commentActions:
+  like:
+    selector: 'button[data-testid="like"]'
+    kind: toggle
+  reply:
+    selector: 'button[data-testid="reply"]'
+    kind: composer
+    composer: 'div[data-testid="tweetTextarea_0"]'
+    submit: 'button[data-testid="tweetButton"]'
+    confirm: true

@@ -4,6 +4,8 @@
 
 **Selectors may change; field and action names are frozen.** The extension's TypeScript engine binds to names (`item`, `title`, `url`, `author`, `body`, `archive`, `send`, …). You may fix a broken selector; you may not rename a field or invent a new action without an extension-side change.
 
+Frozen action vocabulary: `open`, `like`, `dislike`, `upvote`, `downvote`, `reply`, `send`, `archive`, `star`, `mark-read`, `mark-unread`. Action rules take `kind` (`toggle` for one-click actions, `composer` for text actions needing `composer` + `submit` selectors and usually `confirm: true`). Comment-level selectors live under `commentActions` and fall back to `actions` when absent. Must match `RECIPE_ACTION_NAMES` in `apps/digest/src/types.ts`.
+
 ## Add or fix a recipe
 
 1. Copy `recipes/generic-article/` as a template, or edit the existing `recipes/<id>/recipe.yaml`.

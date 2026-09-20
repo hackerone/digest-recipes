@@ -21,3 +21,28 @@ comments:
 actions:
   open:
     selector: "a[href*='/comments/']"
+  upvote:
+    selector: "button[aria-label='upvote']"
+    kind: toggle
+  downvote:
+    selector: "button[aria-label='downvote']"
+    kind: toggle
+  reply:
+    selector: "button[aria-label='Reply']"
+    kind: composer
+    composer: "div[contenteditable='true']"
+    submit: "button[type='submit']"
+    confirm: true
+commentActions:
+  upvote:
+    selector: "button[aria-label='upvote']"
+    kind: toggle
+  downvote:
+    selector: "button[aria-label='downvote']"
+    kind: toggle
+  reply:
+    selector: "button[aria-label='Reply']"
+    kind: composer
+    composer: "div[contenteditable='true']"
+    submit: "button[type='submit']"
+    confirm: true

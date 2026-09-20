@@ -10,6 +10,52 @@ const fail = (msg) => errors.push(msg);
 
 const FETCH_MODES = new Set(["dom", "tab-json", "tab-dom"]);
 const FIELD_NAMES = new Set(["item", "id", "title", "url", "author", "timestamp", "body", "image"]);
+// Frozen action vocabulary. Recipes may change selectors, never names.
+// Must match RECIPE_ACTION_NAMES in apps/digest/src/types.ts.
+const ACTION_NAMES = new Set([
+  "open",
+  "like",
+  "dislike",
+  "upvote",
+  "downvote",
+  "reply",
+  "send",
+  "archive",
+  "star",
+  "mark-read",
+  "mark-unread",
+]);
+
+function checkActionRule(rule, where) {
+  if (!rule || typeof rule !== "object") {
+    fail(`${where}: must be an object with a selector`);
+    return;
+  }
+  if (typeof rule.selector !== "string" || !rule.selector) {
+    fail(`${where}: needs a selector`);
+  }
+  for (const k of Object.keys(rule)) {
+    if (!["selector", "kind", "composer", "submit", "confirm"].includes(k)) {
+      fail(`${where}: unknown action key '${k}'`);
+    }
+  }
+  if (rule.kind !== undefined && rule.kind !== "toggle" && rule.kind !== "composer") {
+    fail(`${where}: unknown kind '${rule.kind}'`);
+  }
+  if (rule.kind === "composer" && typeof rule.composer !== "string") {
+    fail(`${where}: composer actions need a composer selector`);
+  }
+}
+
+function checkActionMap(map, where) {
+  for (const [name, rule] of Object.entries(map)) {
+    if (!ACTION_NAMES.has(name)) {
+      fail(`${where}: unknown action '${name}' (frozen vocabulary)`);
+      continue;
+    }
+    checkActionRule(rule, `${where}.${name}`);
+  }
+}
 
 function checkField(value, where) {
   if (typeof value === "string") return;
@@ -53,11 +99,12 @@ function checkRecipe(recipe, source) {
   }
   if (recipe.siteIcon !== undefined) checkField(recipe.siteIcon, `${source}: siteIcon`);
   if (recipe.actions !== undefined) {
-    for (const [name, rule] of Object.entries(recipe.actions)) {
-      if (!rule || typeof rule.selector !== "string" || !rule.selector) {
-        fail(`${source}: action '${name}' needs a selector`);
-      }
-    }
+    if (typeof recipe.actions !== "object") fail(`${source}: actions must be an object`);
+    else checkActionMap(recipe.actions, `${source}: actions`);
+  }
+  if (recipe.commentActions !== undefined) {
+    if (typeof recipe.commentActions !== "object") fail(`${source}: commentActions must be an object`);
+    else checkActionMap(recipe.commentActions, `${source}: commentActions`);
   }
 }
 

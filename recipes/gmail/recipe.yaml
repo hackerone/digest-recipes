@@ -31,13 +31,25 @@ actions:
     selector: "tr.zA"
   archive:
     selector: "div[aria-label='Archive']"
+    kind: toggle
   mark-read:
     selector: "div[aria-label='Mark as read']"
+    kind: toggle
   mark-unread:
     selector: "div[aria-label='Mark as unread']"
+    kind: toggle
   star:
     selector: "span[aria-label^='Star']"
+    kind: toggle
   reply:
     selector: "div[aria-label='Reply']"
+    kind: composer
+    composer: "div[aria-label='Message Body']"
+    submit: "div[aria-label^='Send']"
+    confirm: true
   send:
     selector: "div[aria-label^='Send']"
+    kind: composer
+    composer: "div[aria-label='Message Body']"
+    submit: "div[aria-label^='Send']"
+    confirm: true
