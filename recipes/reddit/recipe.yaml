@@ -6,6 +6,7 @@ matches:
   - "https://reddit.com/*"
   - "https://m.reddit.com/*"
 description: "Reddit posts with scores and comments (uses your login via background tab)"
+icon: reddit.svg
 fetchMode: tab-json
 content:
   item: "div[data-testid='post-container']"
