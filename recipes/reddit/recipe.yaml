@@ -1,5 +1,5 @@
 id: reddit
-version: 2
+version: 3
 matches:
   - "https://www.reddit.com/*"
   - "https://old.reddit.com/*"
@@ -22,10 +22,10 @@ actions:
   open:
     selector: "a[href*='/comments/']"
   upvote:
-    selector: "[data-action-bar-action='upvote']"
+    selector: ":is([data-action-bar-action='upvote'], .arrow.up)"
     kind: toggle
   downvote:
-    selector: "[data-action-bar-action='downvote']"
+    selector: ":is([data-action-bar-action='downvote'], .arrow.down)"
     kind: toggle
   reply:
     selector: "button[aria-label='Reply']"
@@ -35,10 +35,10 @@ actions:
     confirm: true
 commentActions:
   upvote:
-    selector: "[data-action-bar-action='upvote']"
+    selector: ":is([data-action-bar-action='upvote'], .arrow.up)"
     kind: toggle
   downvote:
-    selector: "[data-action-bar-action='downvote']"
+    selector: ":is([data-action-bar-action='downvote'], .arrow.down)"
     kind: toggle
   reply:
     selector: "button[aria-label='Reply']"
