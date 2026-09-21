@@ -444,5 +444,11 @@
     "version": 1,
     "matches": ["https://www.edx.org/*"],
     "description": "edX courses (login-walled)"
+  },
+  {
+    "id": "khanacademy",
+    "version": 1,
+    "matches": ["https://www.khanacademy.org/*"],
+    "description": "Khan Academy courses (open)"
   }
 ]
