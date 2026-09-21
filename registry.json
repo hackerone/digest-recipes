@@ -582,5 +582,11 @@
     "version": 1,
     "matches": ["https://www.allrecipes.com/*"],
     "description": "Allrecipes recipes"
+  },
+  {
+    "id": "seriouseats",
+    "version": 1,
+    "matches": ["https://www.seriouseats.com/*"],
+    "description": "Serious Eats recipes"
   }
 ]
