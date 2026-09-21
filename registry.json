@@ -78,5 +78,11 @@
     "version": 1,
     "matches": ["https://www.theguardian.com/*"],
     "description": "The Guardian news and opinion"
+  },
+  {
+    "id": "npr",
+    "version": 1,
+    "matches": ["https://www.npr.org/*", "https://npr.org/*"],
+    "description": "NPR news and audio"
   }
 ]
