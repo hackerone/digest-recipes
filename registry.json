@@ -504,5 +504,11 @@
     "version": 1,
     "matches": ["https://*.slack.com/*", "https://slack.com/*"],
     "description": "Slack workspaces (login-walled)"
+  },
+  {
+    "id": "lobsters",
+    "version": 1,
+    "matches": ["https://lobste.rs/*"],
+    "description": "Lobsters stories (open)"
   }
 ]
