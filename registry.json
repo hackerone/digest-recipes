@@ -600,5 +600,11 @@
     "version": 1,
     "matches": ["https://www.tripadvisor.com/*"],
     "description": "TripAdvisor listings (bot-block)"
+  },
+  {
+    "id": "instructables",
+    "version": 1,
+    "matches": ["https://www.instructables.com/*"],
+    "description": "Instructables guides"
   }
 ]
