@@ -1,0 +1,4 @@
+{
+  "items": 2,
+  "first": { "nativeIdContains": "sample-post-one", "title": "First sample post", "url": "/sample-user/sample-post-one" }
+}

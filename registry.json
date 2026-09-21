@@ -240,5 +240,11 @@
     "version": 1,
     "matches": ["https://github.com/*"],
     "description": "GitHub repos and releases (login-walled private)"
+  },
+  {
+    "id": "devto",
+    "version": 1,
+    "matches": ["https://dev.to/*"],
+    "description": "DEV Community posts"
   }
 ]
