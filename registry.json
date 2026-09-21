@@ -552,5 +552,11 @@
     "version": 1,
     "matches": ["https://marketingexamples.com/*"],
     "description": "Marketing Examples"
+  },
+  {
+    "id": "hubspot",
+    "version": 1,
+    "matches": ["https://blog.hubspot.com/*", "https://www.hubspot.com/*"],
+    "description": "HubSpot blog"
   }
 ]
