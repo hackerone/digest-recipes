@@ -294,5 +294,11 @@
     "version": 1,
     "matches": ["https://medium.com/*", "https://*.medium.com/*"],
     "description": "Medium stories (metered, login-lite)"
+  },
+  {
+    "id": "wordpress",
+    "version": 1,
+    "matches": ["https://wordpress.com/*", "https://*.wordpress.com/*"],
+    "description": "WordPress Reader and blogs"
   }
 ]
