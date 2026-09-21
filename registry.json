@@ -60,5 +60,11 @@
     "version": 1,
     "matches": ["https://apnews.com/*", "https://www.apnews.com/*"],
     "description": "AP News articles"
+  },
+  {
+    "id": "bbc",
+    "version": 1,
+    "matches": ["https://www.bbc.com/*", "https://www.bbc.co.uk/*"],
+    "description": "BBC world news"
   }
 ]

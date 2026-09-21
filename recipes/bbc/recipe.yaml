@@ -1,0 +1,24 @@
+id: bbc
+version: 1
+matches:
+  - "https://www.bbc.com/*"
+  - "https://www.bbc.co.uk/*"
+description: "BBC world news"
+fetchMode: dom
+content:
+  item: "article, [data-testid='card'], .gs-c-promo"
+  id:
+    selector: "a"
+    attribute: "href"
+  title:
+    selector: "h1, h2, h3"
+  url:
+    selector: "a"
+    attribute: "href"
+  author:
+    selector: "[rel='author'], .ssrcss-68pt20-Text"
+  body:
+    selector: "p"
+  image:
+    selector: "article img, img"
+    attribute: "src"
