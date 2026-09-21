@@ -576,5 +576,11 @@
     "version": 1,
     "matches": ["https://www.amazon.com/*"],
     "description": "Amazon products (bot-block/captcha, locale variance)"
+  },
+  {
+    "id": "allrecipes",
+    "version": 1,
+    "matches": ["https://www.allrecipes.com/*"],
+    "description": "Allrecipes recipes"
   }
 ]
