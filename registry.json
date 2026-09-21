@@ -534,5 +534,11 @@
     "version": 1,
     "matches": ["https://www.inc.com/*"],
     "description": "Inc. business news"
+  },
+  {
+    "id": "forbes",
+    "version": 1,
+    "matches": ["https://www.forbes.com/*"],
+    "description": "Forbes (ad/consent/bot)"
   }
 ]
