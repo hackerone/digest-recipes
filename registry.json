@@ -216,5 +216,11 @@
     "version": 1,
     "matches": ["https://www.technologyreview.com/*"],
     "description": "MIT Technology Review (metered)"
+  },
+  {
+    "id": "venturebeat",
+    "version": 1,
+    "matches": ["https://venturebeat.com/*"],
+    "description": "VentureBeat tech news"
   }
 ]
