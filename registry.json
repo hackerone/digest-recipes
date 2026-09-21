@@ -288,5 +288,11 @@
     "version": 1,
     "matches": ["https://*.substack.com/*", "https://substack.com/*"],
     "description": "Substack newsletters (paywalled flagged)"
+  },
+  {
+    "id": "medium",
+    "version": 1,
+    "matches": ["https://medium.com/*", "https://*.medium.com/*"],
+    "description": "Medium stories (metered, login-lite)"
   }
 ]
