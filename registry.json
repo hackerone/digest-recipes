@@ -414,5 +414,11 @@
     "version": 1,
     "matches": ["https://soundcloud.com/*"],
     "description": "SoundCloud tracks (login-lite)"
+  },
+  {
+    "id": "anchor",
+    "version": 1,
+    "matches": ["https://anchor.fm/*"],
+    "description": "Anchor podcasts (RSS-first)"
   }
 ]
