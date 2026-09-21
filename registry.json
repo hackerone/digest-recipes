@@ -498,5 +498,11 @@
     "version": 1,
     "matches": ["https://discord.com/*"],
     "description": "Discord channels (login-walled)"
+  },
+  {
+    "id": "slack",
+    "version": 1,
+    "matches": ["https://*.slack.com/*", "https://slack.com/*"],
+    "description": "Slack workspaces (login-walled)"
   }
 ]
