@@ -408,5 +408,11 @@
     "version": 1,
     "matches": ["https://www.podbean.com/*", "https://*.podbean.com/*"],
     "description": "Podbean podcasts (RSS-first)"
+  },
+  {
+    "id": "soundcloud",
+    "version": 1,
+    "matches": ["https://soundcloud.com/*"],
+    "description": "SoundCloud tracks (login-lite)"
   }
 ]
