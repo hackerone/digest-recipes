@@ -84,5 +84,11 @@
     "version": 1,
     "matches": ["https://www.npr.org/*", "https://npr.org/*"],
     "description": "NPR news and audio"
+  },
+  {
+    "id": "cnn",
+    "version": 1,
+    "matches": ["https://www.cnn.com/*", "https://cnn.com/*"],
+    "description": "CNN news"
   }
 ]
