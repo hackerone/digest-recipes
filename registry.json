@@ -168,5 +168,11 @@
     "version": 1,
     "matches": ["https://www.newsbreak.com/*"],
     "description": "NewsBreak local and national news"
+  },
+  {
+    "id": "techcrunch",
+    "version": 1,
+    "matches": ["https://techcrunch.com/*"],
+    "description": "TechCrunch startup and tech news"
   }
 ]
