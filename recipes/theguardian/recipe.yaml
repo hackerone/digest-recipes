@@ -1,0 +1,23 @@
+id: theguardian
+version: 1
+matches:
+  - "https://www.theguardian.com/*"
+description: "The Guardian news and opinion"
+fetchMode: dom
+content:
+  item: "article, .fc-item"
+  id:
+    selector: "a"
+    attribute: "href"
+  title:
+    selector: "h1, h2, h3, .fc-item__title"
+  url:
+    selector: "a"
+    attribute: "href"
+  author:
+    selector: ".byline, [rel='author']"
+  body:
+    selector: "p"
+  image:
+    selector: "article img"
+    attribute: "src"

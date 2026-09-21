@@ -72,5 +72,11 @@
     "version": 1,
     "matches": ["https://www.nytimes.com/*", "https://nytimes.com/*"],
     "description": "New York Times news and features"
+  },
+  {
+    "id": "theguardian",
+    "version": 1,
+    "matches": ["https://www.theguardian.com/*"],
+    "description": "The Guardian news and opinion"
   }
 ]
