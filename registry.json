@@ -204,5 +204,11 @@
     "version": 1,
     "matches": ["https://gizmodo.com/*"],
     "description": "Gizmodo tech news"
+  },
+  {
+    "id": "zdnet",
+    "version": 1,
+    "matches": ["https://www.zdnet.com/*"],
+    "description": "ZDNet tech news"
   }
 ]
