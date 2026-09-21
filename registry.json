@@ -300,5 +300,11 @@
     "version": 1,
     "matches": ["https://wordpress.com/*", "https://*.wordpress.com/*"],
     "description": "WordPress Reader and blogs"
+  },
+  {
+    "id": "blogger",
+    "version": 1,
+    "matches": ["https://www.blogger.com/*", "https://*.blogspot.com/*"],
+    "description": "Blogger posts"
   }
 ]
