@@ -330,5 +330,11 @@
     "version": 1,
     "matches": ["https://daringfireball.net/*"],
     "description": "Daring Fireball linked list"
+  },
+  {
+    "id": "paulgraham",
+    "version": 1,
+    "matches": ["https://paulgraham.com/*"],
+    "description": "Paul Graham essays"
   }
 ]
