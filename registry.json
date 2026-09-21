@@ -432,5 +432,11 @@
     "version": 1,
     "matches": ["https://www.loom.com/*"],
     "description": "Loom share pages (login-lite)"
+  },
+  {
+    "id": "coursera",
+    "version": 1,
+    "matches": ["https://www.coursera.org/*"],
+    "description": "Coursera courses (login-walled)"
   }
 ]

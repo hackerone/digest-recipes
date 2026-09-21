@@ -1,0 +1,4 @@
+{
+  "items": 1,
+  "first": { "nativeIdContains": "sample-course-one", "title": "First sample course", "url": "/learn/sample-course-one" }
+}
