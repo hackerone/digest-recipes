@@ -1,0 +1,23 @@
+id: fastcompany
+version: 1
+matches:
+  - "https://www.fastcompany.com/*"
+description: "Fast Company business news"
+fetchMode: dom
+content:
+  item: "article, .post-card"
+  id:
+    selector: "a"
+    attribute: "href"
+  title:
+    selector: "h1, h2"
+  url:
+    selector: "a"
+    attribute: "href"
+  author:
+    selector: "[rel='author'], .byline"
+  body:
+    selector: "p"
+  image:
+    selector: "article img"
+    attribute: "src"

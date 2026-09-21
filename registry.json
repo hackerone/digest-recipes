@@ -540,5 +540,11 @@
     "version": 1,
     "matches": ["https://www.forbes.com/*"],
     "description": "Forbes (ad/consent/bot)"
+  },
+  {
+    "id": "fastcompany",
+    "version": 1,
+    "matches": ["https://www.fastcompany.com/*"],
+    "description": "Fast Company business news"
   }
 ]
