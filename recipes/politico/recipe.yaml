@@ -1,0 +1,24 @@
+id: politico
+version: 1
+matches:
+  - "https://www.politico.com/*"
+  - "https://politico.com/*"
+description: "Politico political news"
+fetchMode: dom
+content:
+  item: "article, .story-card"
+  id:
+    selector: "a"
+    attribute: "href"
+  title:
+    selector: "h1, h2, h3"
+  url:
+    selector: "a"
+    attribute: "href"
+  author:
+    selector: "[rel='author'], .byline"
+  body:
+    selector: "p"
+  image:
+    selector: "article img"
+    attribute: "src"
