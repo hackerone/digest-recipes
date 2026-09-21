@@ -390,5 +390,11 @@
     "version": 1,
     "matches": ["https://www.twitch.tv/*"],
     "description": "Twitch streams (login-walled)"
+  },
+  {
+    "id": "apple-podcasts",
+    "version": 1,
+    "matches": ["https://podcasts.apple.com/*"],
+    "description": "Apple Podcasts directory (JS-rendered)"
   }
 ]
