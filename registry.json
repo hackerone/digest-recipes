@@ -372,5 +372,11 @@
     "version": 1,
     "matches": ["https://longreads.com/*"],
     "description": "Longreads curation"
+  },
+  {
+    "id": "vimeo",
+    "version": 1,
+    "matches": ["https://vimeo.com/*"],
+    "description": "Vimeo videos (JS/login-lite)"
   }
 ]
