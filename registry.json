@@ -516,5 +516,11 @@
     "version": 1,
     "matches": ["https://www.indiehackers.com/*"],
     "description": "Indie Hackers posts (login-lite)"
+  },
+  {
+    "id": "quora",
+    "version": 1,
+    "matches": ["https://www.quora.com/*"],
+    "description": "Quora answers (login-walled/bot)"
   }
 ]
