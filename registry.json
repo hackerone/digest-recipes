@@ -252,5 +252,11 @@
     "version": 1,
     "matches": ["https://hashnode.com/*", "https://*.hashnode.dev/*"],
     "description": "Hashnode blogs"
+  },
+  {
+    "id": "stackoverflow",
+    "version": 1,
+    "matches": ["https://stackoverflow.com/*"],
+    "description": "Stack Overflow questions (rate-limited)"
   }
 ]
