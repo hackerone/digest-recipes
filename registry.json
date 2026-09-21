@@ -348,5 +348,11 @@
     "version": 1,
     "matches": ["https://waitbutwhy.com/*"],
     "description": "Wait But Why longform"
+  },
+  {
+    "id": "lesswrong",
+    "version": 1,
+    "matches": ["https://www.lesswrong.com/*"],
+    "description": "LessWrong posts (login-lite)"
   }
 ]
