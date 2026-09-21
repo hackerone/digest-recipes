@@ -324,5 +324,11 @@
     "version": 1,
     "matches": ["https://stratechery.com/*"],
     "description": "Stratechery (metered)"
+  },
+  {
+    "id": "daringfireball",
+    "version": 1,
+    "matches": ["https://daringfireball.net/*"],
+    "description": "Daring Fireball linked list"
   }
 ]
