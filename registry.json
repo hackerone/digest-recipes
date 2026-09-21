@@ -342,5 +342,11 @@
     "version": 1,
     "matches": ["https://seths.blog/*"],
     "description": "Seth's Blog"
+  },
+  {
+    "id": "waitbutwhy",
+    "version": 1,
+    "matches": ["https://waitbutwhy.com/*"],
+    "description": "Wait But Why longform"
   }
 ]
