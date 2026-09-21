@@ -354,5 +354,11 @@
     "version": 1,
     "matches": ["https://www.lesswrong.com/*"],
     "description": "LessWrong posts (login-lite)"
+  },
+  {
+    "id": "lifehacker",
+    "version": 1,
+    "matches": ["https://lifehacker.com/*"],
+    "description": "Lifehacker posts"
   }
 ]
