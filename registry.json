@@ -198,5 +198,11 @@
     "version": 1,
     "matches": ["https://www.engadget.com/*"],
     "description": "Engadget tech news"
+  },
+  {
+    "id": "gizmodo",
+    "version": 1,
+    "matches": ["https://gizmodo.com/*"],
+    "description": "Gizmodo tech news"
   }
 ]
