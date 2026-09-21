@@ -468,5 +468,11 @@
     "version": 1,
     "matches": ["https://www.facebook.com/*"],
     "description": "Facebook feed (login-walled)"
+  },
+  {
+    "id": "instagram",
+    "version": 1,
+    "matches": ["https://www.instagram.com/*"],
+    "description": "Instagram posts (login-walled)"
   }
 ]
