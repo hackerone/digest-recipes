@@ -108,5 +108,11 @@
     "version": 1,
     "matches": ["https://www.economist.com/*"],
     "description": "Economist global affairs"
+  },
+  {
+    "id": "google-news",
+    "version": 1,
+    "matches": ["https://news.google.com/*"],
+    "description": "Google News aggregation"
   }
 ]
