@@ -132,5 +132,11 @@
     "version": 1,
     "matches": ["https://www.politico.com/*", "https://politico.com/*"],
     "description": "Politico political news"
+  },
+  {
+    "id": "propublica",
+    "version": 1,
+    "matches": ["https://www.propublica.org/*"],
+    "description": "ProPublica investigative journalism"
   }
 ]
