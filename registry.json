@@ -66,5 +66,11 @@
     "version": 1,
     "matches": ["https://www.bbc.com/*", "https://www.bbc.co.uk/*"],
     "description": "BBC world news"
+  },
+  {
+    "id": "nytimes",
+    "version": 1,
+    "matches": ["https://www.nytimes.com/*", "https://nytimes.com/*"],
+    "description": "New York Times news and features"
   }
 ]
