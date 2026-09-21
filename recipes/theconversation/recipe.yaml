@@ -1,0 +1,23 @@
+id: theconversation
+version: 1
+matches:
+  - "https://theconversation.com/*"
+description: "The Conversation articles"
+fetchMode: dom
+content:
+  item: "article"
+  id:
+    selector: "a"
+    attribute: "href"
+  title:
+    selector: "h1, h2"
+  url:
+    selector: "a"
+    attribute: "href"
+  author:
+    selector: "[rel='author'], .byline"
+  body:
+    selector: "p"
+  image:
+    selector: "article img"
+    attribute: "src"

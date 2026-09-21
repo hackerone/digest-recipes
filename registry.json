@@ -360,5 +360,11 @@
     "version": 1,
     "matches": ["https://lifehacker.com/*"],
     "description": "Lifehacker posts"
+  },
+  {
+    "id": "theconversation",
+    "version": 1,
+    "matches": ["https://theconversation.com/*"],
+    "description": "The Conversation articles"
   }
 ]
