@@ -510,5 +510,11 @@
     "version": 1,
     "matches": ["https://lobste.rs/*"],
     "description": "Lobsters stories (open)"
+  },
+  {
+    "id": "indiehackers",
+    "version": 1,
+    "matches": ["https://www.indiehackers.com/*"],
+    "description": "Indie Hackers posts (login-lite)"
   }
 ]
