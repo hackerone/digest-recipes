@@ -258,5 +258,11 @@
     "version": 1,
     "matches": ["https://stackoverflow.com/*"],
     "description": "Stack Overflow questions (rate-limited)"
+  },
+  {
+    "id": "openai",
+    "version": 1,
+    "matches": ["https://openai.com/*"],
+    "description": "OpenAI announcements"
   }
 ]
