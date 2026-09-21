@@ -474,5 +474,11 @@
     "version": 1,
     "matches": ["https://www.instagram.com/*"],
     "description": "Instagram posts (login-walled)"
+  },
+  {
+    "id": "threads",
+    "version": 1,
+    "matches": ["https://www.threads.net/*", "https://www.threads.com/*"],
+    "description": "Threads posts (login-walled)"
   }
 ]
