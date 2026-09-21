@@ -276,5 +276,11 @@
     "version": 1,
     "matches": ["https://huggingface.co/*"],
     "description": "Hugging Face models (JS-heavy)"
+  },
+  {
+    "id": "arxiv",
+    "version": 1,
+    "matches": ["https://arxiv.org/*", "https://export.arxiv.org/*"],
+    "description": "arXiv papers"
   }
 ]
