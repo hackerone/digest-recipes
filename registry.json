@@ -174,5 +174,11 @@
     "version": 1,
     "matches": ["https://techcrunch.com/*"],
     "description": "TechCrunch startup and tech news"
+  },
+  {
+    "id": "theverge",
+    "version": 1,
+    "matches": ["https://www.theverge.com/*"],
+    "description": "The Verge tech news"
   }
 ]
