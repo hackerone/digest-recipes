@@ -1,0 +1,24 @@
+id: substack
+version: 1
+matches:
+  - "https://*.substack.com/*"
+  - "https://substack.com/*"
+description: "Substack newsletters (paywalled flagged)"
+fetchMode: tab-dom
+content:
+  item: "article, .post-card"
+  id:
+    selector: "a"
+    attribute: "href"
+  title:
+    selector: "h1, h2"
+  url:
+    selector: "a"
+    attribute: "href"
+  author:
+    selector: "[rel='author'], .byline"
+  body:
+    selector: "p"
+  image:
+    selector: "article img"
+    attribute: "src"

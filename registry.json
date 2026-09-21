@@ -282,5 +282,11 @@
     "version": 1,
     "matches": ["https://arxiv.org/*", "https://export.arxiv.org/*"],
     "description": "arXiv papers"
+  },
+  {
+    "id": "substack",
+    "version": 1,
+    "matches": ["https://*.substack.com/*", "https://substack.com/*"],
+    "description": "Substack newsletters (paywalled flagged)"
   }
 ]
