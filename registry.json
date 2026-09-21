@@ -558,5 +558,11 @@
     "version": 1,
     "matches": ["https://blog.hubspot.com/*", "https://www.hubspot.com/*"],
     "description": "HubSpot blog"
+  },
+  {
+    "id": "shopify",
+    "version": 1,
+    "matches": ["https://www.shopify.com/*"],
+    "description": "Shopify blog"
   }
 ]
