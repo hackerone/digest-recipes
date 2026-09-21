@@ -210,5 +210,11 @@
     "version": 1,
     "matches": ["https://www.zdnet.com/*"],
     "description": "ZDNet tech news"
+  },
+  {
+    "id": "technologyreview",
+    "version": 1,
+    "matches": ["https://www.technologyreview.com/*"],
+    "description": "MIT Technology Review (metered)"
   }
 ]
