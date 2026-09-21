@@ -528,5 +528,11 @@
     "version": 1,
     "matches": ["https://hbr.org/*"],
     "description": "Harvard Business Review (paywalled)"
+  },
+  {
+    "id": "inc",
+    "version": 1,
+    "matches": ["https://www.inc.com/*"],
+    "description": "Inc. business news"
   }
 ]
