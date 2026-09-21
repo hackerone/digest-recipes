@@ -426,5 +426,11 @@
     "version": 1,
     "matches": ["https://www.patreon.com/*"],
     "description": "Patreon creator pages (login-walled)"
+  },
+  {
+    "id": "loom",
+    "version": 1,
+    "matches": ["https://www.loom.com/*"],
+    "description": "Loom share pages (login-lite)"
   }
 ]
