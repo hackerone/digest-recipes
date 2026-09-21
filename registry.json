@@ -234,5 +234,11 @@
     "version": 1,
     "matches": ["https://www.producthunt.com/*"],
     "description": "Product Hunt launches (login-lite)"
+  },
+  {
+    "id": "github",
+    "version": 1,
+    "matches": ["https://github.com/*"],
+    "description": "GitHub repos and releases (login-walled private)"
   }
 ]
