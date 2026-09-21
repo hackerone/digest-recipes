@@ -186,5 +186,11 @@
     "version": 1,
     "matches": ["https://arstechnica.com/*"],
     "description": "Ars Technica tech news"
+  },
+  {
+    "id": "wired",
+    "version": 1,
+    "matches": ["https://www.wired.com/*"],
+    "description": "Wired tech and culture (metered)"
   }
 ]
