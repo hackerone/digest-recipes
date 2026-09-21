@@ -270,5 +270,11 @@
     "version": 1,
     "matches": ["https://www.anthropic.com/*", "https://anthropic.com/*"],
     "description": "Anthropic announcements"
+  },
+  {
+    "id": "huggingface",
+    "version": 1,
+    "matches": ["https://huggingface.co/*"],
+    "description": "Hugging Face models (JS-heavy)"
   }
 ]
