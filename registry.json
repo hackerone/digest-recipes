@@ -306,5 +306,11 @@
     "version": 1,
     "matches": ["https://www.blogger.com/*", "https://*.blogspot.com/*"],
     "description": "Blogger posts"
+  },
+  {
+    "id": "ghost",
+    "version": 1,
+    "matches": ["https://ghost.org/*"],
+    "description": "Ghost stories (custom domains out of scope)"
   }
 ]
