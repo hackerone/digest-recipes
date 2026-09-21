@@ -594,5 +594,11 @@
     "version": 1,
     "matches": ["https://food52.com/*"],
     "description": "Food52 recipes"
+  },
+  {
+    "id": "tripadvisor",
+    "version": 1,
+    "matches": ["https://www.tripadvisor.com/*"],
+    "description": "TripAdvisor listings (bot-block)"
   }
 ]
