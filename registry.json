@@ -120,5 +120,11 @@
     "version": 1,
     "matches": ["https://news.yahoo.com/*"],
     "description": "Yahoo News"
+  },
+  {
+    "id": "axios",
+    "version": 1,
+    "matches": ["https://www.axios.com/*"],
+    "description": "Axios news and briefings"
   }
 ]
