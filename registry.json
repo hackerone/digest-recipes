@@ -264,5 +264,11 @@
     "version": 1,
     "matches": ["https://openai.com/*"],
     "description": "OpenAI announcements"
+  },
+  {
+    "id": "anthropic",
+    "version": 1,
+    "matches": ["https://www.anthropic.com/*", "https://anthropic.com/*"],
+    "description": "Anthropic announcements"
   }
 ]
