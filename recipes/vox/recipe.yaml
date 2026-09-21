@@ -1,0 +1,23 @@
+id: vox
+version: 1
+matches:
+  - "https://www.vox.com/*"
+description: "Vox explainers"
+fetchMode: dom
+content:
+  item: "article, .c-entry-box"
+  id:
+    selector: "a"
+    attribute: "href"
+  title:
+    selector: "h1, h2"
+  url:
+    selector: "a"
+    attribute: "href"
+  author:
+    selector: "[rel='author'], .c-byline"
+  body:
+    selector: "p"
+  image:
+    selector: "article img"
+    attribute: "src"

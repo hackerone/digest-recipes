@@ -138,5 +138,11 @@
     "version": 1,
     "matches": ["https://www.propublica.org/*"],
     "description": "ProPublica investigative journalism"
+  },
+  {
+    "id": "vox",
+    "version": 1,
+    "matches": ["https://www.vox.com/*"],
+    "description": "Vox explainers"
   }
 ]
