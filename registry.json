@@ -114,5 +114,11 @@
     "version": 1,
     "matches": ["https://news.google.com/*"],
     "description": "Google News aggregation"
+  },
+  {
+    "id": "yahoo-news",
+    "version": 1,
+    "matches": ["https://news.yahoo.com/*"],
+    "description": "Yahoo News"
   }
 ]
