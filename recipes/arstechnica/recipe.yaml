@@ -1,0 +1,23 @@
+id: arstechnica
+version: 1
+matches:
+  - "https://arstechnica.com/*"
+description: "Ars Technica tech news"
+fetchMode: dom
+content:
+  item: "article"
+  id:
+    selector: "a"
+    attribute: "href"
+  title:
+    selector: "h1, h2"
+  url:
+    selector: "a"
+    attribute: "href"
+  author:
+    selector: "[rel='author'], .byline"
+  body:
+    selector: "p"
+  image:
+    selector: "article img"
+    attribute: "src"

@@ -180,5 +180,11 @@
     "version": 1,
     "matches": ["https://www.theverge.com/*"],
     "description": "The Verge tech news"
+  },
+  {
+    "id": "arstechnica",
+    "version": 1,
+    "matches": ["https://arstechnica.com/*"],
+    "description": "Ars Technica tech news"
   }
 ]
