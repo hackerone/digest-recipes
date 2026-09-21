@@ -222,5 +222,11 @@
     "version": 1,
     "matches": ["https://venturebeat.com/*"],
     "description": "VentureBeat tech news"
+  },
+  {
+    "id": "geekwire",
+    "version": 1,
+    "matches": ["https://www.geekwire.com/*"],
+    "description": "GeekWire tech news"
   }
 ]
