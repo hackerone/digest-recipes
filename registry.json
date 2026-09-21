@@ -438,5 +438,11 @@
     "version": 1,
     "matches": ["https://www.coursera.org/*"],
     "description": "Coursera courses (login-walled)"
+  },
+  {
+    "id": "edx",
+    "version": 1,
+    "matches": ["https://www.edx.org/*"],
+    "description": "edX courses (login-walled)"
   }
 ]
