@@ -1,0 +1,4 @@
+{
+  "items": 2,
+  "first": { "nativeIdContains": "sample_channel_one", "title": "First sample stream", "url": "/sample_channel_one" }
+}

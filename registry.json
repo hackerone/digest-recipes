@@ -384,5 +384,11 @@
     "version": 1,
     "matches": ["https://www.ted.com/*"],
     "description": "TED talks"
+  },
+  {
+    "id": "twitch",
+    "version": 1,
+    "matches": ["https://www.twitch.tv/*"],
+    "description": "Twitch streams (login-walled)"
   }
 ]
