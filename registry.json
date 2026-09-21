@@ -144,5 +144,11 @@
     "version": 1,
     "matches": ["https://www.vox.com/*"],
     "description": "Vox explainers"
+  },
+  {
+    "id": "time",
+    "version": 1,
+    "matches": ["https://time.com/*", "https://www.time.com/*"],
+    "description": "TIME news and features"
   }
 ]
