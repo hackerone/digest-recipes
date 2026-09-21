@@ -1,0 +1,24 @@
+id: podbean
+version: 1
+matches:
+  - "https://www.podbean.com/*"
+  - "https://*.podbean.com/*"
+description: "Podbean podcasts (RSS-first)"
+fetchMode: dom
+content:
+  item: "article, .video-card, li"
+  id:
+    selector: "a"
+    attribute: "href"
+  title:
+    selector: "h1, h2, h3"
+  url:
+    selector: "a"
+    attribute: "href"
+  author:
+    selector: "a, span"
+  body:
+    selector: "p"
+  image:
+    selector: "img"
+    attribute: "src"

@@ -402,5 +402,11 @@
     "version": 1,
     "matches": ["https://open.spotify.com/*", "https://spotify.com/*"],
     "description": "Spotify (login-walled)"
+  },
+  {
+    "id": "podbean",
+    "version": 1,
+    "matches": ["https://www.podbean.com/*", "https://*.podbean.com/*"],
+    "description": "Podbean podcasts (RSS-first)"
   }
 ]
