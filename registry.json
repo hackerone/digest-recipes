@@ -162,5 +162,11 @@
     "version": 1,
     "matches": ["https://www.aljazeera.com/*"],
     "description": "Al Jazeera international news"
+  },
+  {
+    "id": "newsbreak",
+    "version": 1,
+    "matches": ["https://www.newsbreak.com/*"],
+    "description": "NewsBreak local and national news"
   }
 ]
