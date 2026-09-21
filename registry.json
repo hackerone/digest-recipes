@@ -570,5 +570,11 @@
     "version": 1,
     "matches": ["https://www.nytimes.com/wirecutter/*", "https://www.wirecutter.com/*"],
     "description": "Wirecutter reviews (metered)"
+  },
+  {
+    "id": "amazon",
+    "version": 1,
+    "matches": ["https://www.amazon.com/*"],
+    "description": "Amazon products (bot-block/captcha, locale variance)"
   }
 ]
