@@ -396,5 +396,11 @@
     "version": 1,
     "matches": ["https://podcasts.apple.com/*"],
     "description": "Apple Podcasts directory (JS-rendered)"
+  },
+  {
+    "id": "spotify",
+    "version": 1,
+    "matches": ["https://open.spotify.com/*", "https://spotify.com/*"],
+    "description": "Spotify (login-walled)"
   }
 ]
