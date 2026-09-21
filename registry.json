@@ -378,5 +378,11 @@
     "version": 1,
     "matches": ["https://vimeo.com/*"],
     "description": "Vimeo videos (JS/login-lite)"
+  },
+  {
+    "id": "ted",
+    "version": 1,
+    "matches": ["https://www.ted.com/*"],
+    "description": "TED talks"
   }
 ]
