@@ -30,7 +30,7 @@
   },
   {
     "id": "youtube",
-    "version": 1,
+    "version": 2,
     "matches": [
       "https://www.youtube.com/watch*",
       "https://www.youtube.com/@*",
