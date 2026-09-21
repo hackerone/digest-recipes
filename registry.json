@@ -450,5 +450,11 @@
     "version": 1,
     "matches": ["https://www.khanacademy.org/*"],
     "description": "Khan Academy courses (open)"
+  },
+  {
+    "id": "masterclass",
+    "version": 1,
+    "matches": ["https://www.masterclass.com/*"],
+    "description": "MasterClass (paywalled)"
   }
 ]
