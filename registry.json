@@ -150,5 +150,11 @@
     "version": 1,
     "matches": ["https://time.com/*", "https://www.time.com/*"],
     "description": "TIME news and features"
+  },
+  {
+    "id": "newsweek",
+    "version": 1,
+    "matches": ["https://www.newsweek.com/*"],
+    "description": "Newsweek news"
   }
 ]
