@@ -96,5 +96,11 @@
     "version": 1,
     "matches": ["https://www.washingtonpost.com/*"],
     "description": "Washington Post news"
+  },
+  {
+    "id": "theatlantic",
+    "version": 1,
+    "matches": ["https://www.theatlantic.com/*"],
+    "description": "The Atlantic long-form journalism"
   }
 ]
