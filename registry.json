@@ -90,5 +90,11 @@
     "version": 1,
     "matches": ["https://www.cnn.com/*", "https://cnn.com/*"],
     "description": "CNN news"
+  },
+  {
+    "id": "washingtonpost",
+    "version": 1,
+    "matches": ["https://www.washingtonpost.com/*"],
+    "description": "Washington Post news"
   }
 ]
