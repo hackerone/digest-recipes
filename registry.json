@@ -312,5 +312,11 @@
     "version": 1,
     "matches": ["https://ghost.org/*"],
     "description": "Ghost stories (custom domains out of scope)"
+  },
+  {
+    "id": "simonwillison",
+    "version": 1,
+    "matches": ["https://simonwillison.net/*"],
+    "description": "Simon Willison blog"
   }
 ]
