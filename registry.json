@@ -54,5 +54,11 @@
     "version": 1,
     "matches": ["https://www.reuters.com/*", "https://reuters.com/*"],
     "description": "Reuters global news"
+  },
+  {
+    "id": "apnews",
+    "version": 1,
+    "matches": ["https://apnews.com/*", "https://www.apnews.com/*"],
+    "description": "AP News articles"
   }
 ]
