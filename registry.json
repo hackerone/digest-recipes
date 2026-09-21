@@ -564,5 +564,11 @@
     "version": 1,
     "matches": ["https://www.shopify.com/*"],
     "description": "Shopify blog"
+  },
+  {
+    "id": "wirecutter",
+    "version": 1,
+    "matches": ["https://www.nytimes.com/wirecutter/*", "https://www.wirecutter.com/*"],
+    "description": "Wirecutter reviews (metered)"
   }
 ]
