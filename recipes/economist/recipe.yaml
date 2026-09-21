@@ -1,0 +1,23 @@
+id: economist
+version: 1
+matches:
+  - "https://www.economist.com/*"
+description: "Economist global affairs"
+fetchMode: dom
+content:
+  item: "article, .teaser"
+  id:
+    selector: "a"
+    attribute: "href"
+  title:
+    selector: "h1, h2, h3"
+  url:
+    selector: "a"
+    attribute: "href"
+  author:
+    selector: "[rel='author']"
+  body:
+    selector: "p"
+  image:
+    selector: "article img"
+    attribute: "src"

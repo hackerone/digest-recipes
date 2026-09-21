@@ -102,5 +102,11 @@
     "version": 1,
     "matches": ["https://www.theatlantic.com/*"],
     "description": "The Atlantic long-form journalism"
+  },
+  {
+    "id": "economist",
+    "version": 1,
+    "matches": ["https://www.economist.com/*"],
+    "description": "Economist global affairs"
   }
 ]
