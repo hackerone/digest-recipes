@@ -156,5 +156,11 @@
     "version": 1,
     "matches": ["https://www.newsweek.com/*"],
     "description": "Newsweek news"
+  },
+  {
+    "id": "aljazeera",
+    "version": 1,
+    "matches": ["https://www.aljazeera.com/*"],
+    "description": "Al Jazeera international news"
   }
 ]
