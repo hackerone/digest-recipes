@@ -246,5 +246,11 @@
     "version": 1,
     "matches": ["https://dev.to/*"],
     "description": "DEV Community posts"
+  },
+  {
+    "id": "hashnode",
+    "version": 1,
+    "matches": ["https://hashnode.com/*", "https://*.hashnode.dev/*"],
+    "description": "Hashnode blogs"
   }
 ]

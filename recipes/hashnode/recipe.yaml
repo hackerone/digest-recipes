@@ -1,0 +1,24 @@
+id: hashnode
+version: 1
+matches:
+  - "https://hashnode.com/*"
+  - "https://*.hashnode.dev/*"
+description: "Hashnode blogs"
+fetchMode: dom
+content:
+  item: "article, .post-card"
+  id:
+    selector: "a"
+    attribute: "href"
+  title:
+    selector: "h1, h2"
+  url:
+    selector: "a"
+    attribute: "href"
+  author:
+    selector: "[rel='author'], .byline"
+  body:
+    selector: "p"
+  image:
+    selector: "article img"
+    attribute: "src"
