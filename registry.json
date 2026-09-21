@@ -192,5 +192,11 @@
     "version": 1,
     "matches": ["https://www.wired.com/*"],
     "description": "Wired tech and culture (metered)"
+  },
+  {
+    "id": "engadget",
+    "version": 1,
+    "matches": ["https://www.engadget.com/*"],
+    "description": "Engadget tech news"
   }
 ]
