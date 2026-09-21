@@ -588,5 +588,11 @@
     "version": 1,
     "matches": ["https://www.seriouseats.com/*"],
     "description": "Serious Eats recipes"
+  },
+  {
+    "id": "food52",
+    "version": 1,
+    "matches": ["https://food52.com/*"],
+    "description": "Food52 recipes"
   }
 ]
