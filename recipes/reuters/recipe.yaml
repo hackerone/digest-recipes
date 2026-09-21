@@ -1,0 +1,24 @@
+id: reuters
+version: 1
+matches:
+  - "https://www.reuters.com/*"
+  - "https://reuters.com/*"
+description: "Reuters global news"
+fetchMode: dom
+content:
+  item: "article, [data-testid='story-card'], .story-card"
+  id:
+    selector: "a[href*='/world/'], a[href*='/business/'], a[href*='/technology/']"
+    attribute: "href"
+  title:
+    selector: "h1, h2, h3"
+  url:
+    selector: "a"
+    attribute: "href"
+  author:
+    selector: "[rel='author'], .author-name"
+  body:
+    selector: "p"
+  image:
+    selector: "article img, img"
+    attribute: "src"

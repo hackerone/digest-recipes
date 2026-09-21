@@ -48,5 +48,11 @@
     "version": 1,
     "matches": ["https://*/*", "http://*/*"],
     "description": "Fallback article extraction"
+  },
+  {
+    "id": "reuters",
+    "version": 1,
+    "matches": ["https://www.reuters.com/*", "https://reuters.com/*"],
+    "description": "Reuters global news"
   }
 ]
