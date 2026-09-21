@@ -318,5 +318,11 @@
     "version": 1,
     "matches": ["https://simonwillison.net/*"],
     "description": "Simon Willison blog"
+  },
+  {
+    "id": "stratechery",
+    "version": 1,
+    "matches": ["https://stratechery.com/*"],
+    "description": "Stratechery (metered)"
   }
 ]
