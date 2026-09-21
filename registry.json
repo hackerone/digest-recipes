@@ -336,5 +336,11 @@
     "version": 1,
     "matches": ["https://paulgraham.com/*"],
     "description": "Paul Graham essays"
+  },
+  {
+    "id": "sethsblog",
+    "version": 1,
+    "matches": ["https://seths.blog/*"],
+    "description": "Seth's Blog"
   }
 ]
