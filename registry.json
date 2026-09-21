@@ -456,5 +456,11 @@
     "version": 1,
     "matches": ["https://www.masterclass.com/*"],
     "description": "MasterClass (paywalled)"
+  },
+  {
+    "id": "linkedin",
+    "version": 1,
+    "matches": ["https://www.linkedin.com/*"],
+    "description": "LinkedIn feed (login-walled)"
   }
 ]
