@@ -228,5 +228,11 @@
     "version": 1,
     "matches": ["https://www.geekwire.com/*"],
     "description": "GeekWire tech news"
+  },
+  {
+    "id": "producthunt",
+    "version": 1,
+    "matches": ["https://www.producthunt.com/*"],
+    "description": "Product Hunt launches (login-lite)"
   }
 ]
