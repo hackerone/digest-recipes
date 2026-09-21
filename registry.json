@@ -606,5 +606,11 @@
     "version": 1,
     "matches": ["https://www.instructables.com/*"],
     "description": "Instructables guides"
+  },
+  {
+    "id": "goodreads",
+    "version": 1,
+    "matches": ["https://www.goodreads.com/*"],
+    "description": "Goodreads books (login-lite/bot)"
   }
 ]

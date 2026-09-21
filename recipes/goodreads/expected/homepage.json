@@ -1,0 +1,4 @@
+{
+  "items": 2,
+  "first": { "nativeIdContains": "sample-book-one", "title": "First sample book", "url": "/book/show/111111.sample-book-one" }
+}
