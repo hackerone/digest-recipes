@@ -480,5 +480,11 @@
     "version": 1,
     "matches": ["https://www.threads.net/*", "https://www.threads.com/*"],
     "description": "Threads posts (login-walled)"
+  },
+  {
+    "id": "tiktok",
+    "version": 1,
+    "matches": ["https://www.tiktok.com/*"],
+    "description": "TikTok videos (JS/bot)"
   }
 ]
