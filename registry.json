@@ -486,5 +486,11 @@
     "version": 1,
     "matches": ["https://www.tiktok.com/*"],
     "description": "TikTok videos (JS/bot)"
+  },
+  {
+    "id": "pinterest",
+    "version": 1,
+    "matches": ["https://www.pinterest.com/*"],
+    "description": "Pinterest pins (login-lite)"
   }
 ]
