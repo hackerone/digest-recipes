@@ -366,5 +366,11 @@
     "version": 1,
     "matches": ["https://theconversation.com/*"],
     "description": "The Conversation articles"
+  },
+  {
+    "id": "longreads",
+    "version": 1,
+    "matches": ["https://longreads.com/*"],
+    "description": "Longreads curation"
   }
 ]
