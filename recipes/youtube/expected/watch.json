@@ -1,0 +1,4 @@
+{
+  "items": 1,
+  "first": { "nativeIdContains": "v=abc123", "title": "Sample Video Title", "url": "/watch?v=abc123" }
+}

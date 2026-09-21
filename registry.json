@@ -29,6 +29,21 @@
     "description": "X timeline posts with replies (uses your login via background tab)"
   },
   {
+    "id": "youtube",
+    "version": 1,
+    "matches": [
+      "https://www.youtube.com/watch*",
+      "https://www.youtube.com/@*",
+      "https://www.youtube.com/channel/*",
+      "https://www.youtube.com/c/*",
+      "https://www.youtube.com/user/*",
+      "https://www.youtube.com/results*",
+      "https://m.youtube.com/watch*",
+      "https://youtu.be/*"
+    ],
+    "description": "YouTube videos and channel listings"
+  },
+  {
     "id": "generic-article",
     "version": 1,
     "matches": ["https://*/*", "http://*/*"],

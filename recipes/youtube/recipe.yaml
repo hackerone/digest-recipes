@@ -1,0 +1,30 @@
+id: youtube
+version: 1
+matches:
+  - "https://www.youtube.com/watch*"
+  - "https://www.youtube.com/@*"
+  - "https://www.youtube.com/channel/*"
+  - "https://www.youtube.com/c/*"
+  - "https://www.youtube.com/user/*"
+  - "https://www.youtube.com/results*"
+  - "https://m.youtube.com/watch*"
+  - "https://youtu.be/*"
+description: "YouTube videos and channel listings"
+fetchMode: dom
+content:
+  item: "ytd-watch-flexy, ytd-video-renderer, ytd-grid-video-renderer, ytd-rich-item-renderer"
+  id:
+    selector: "a#video-title-link, a#video-title"
+    attribute: "href"
+  title:
+    selector: "h1 yt-formatted-string, #video-title, #title"
+  url:
+    selector: "a#video-title-link, a#video-title"
+    attribute: "href"
+  author:
+    selector: "#channel-name a, ytd-channel-name a, #owner-name a"
+  body:
+    selector: "#description, yt-formatted-string#description, #description-inner"
+  image:
+    selector: "#thumbnail img, img#img"
+    attribute: "src"
