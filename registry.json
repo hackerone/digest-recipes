@@ -420,5 +420,11 @@
     "version": 1,
     "matches": ["https://anchor.fm/*"],
     "description": "Anchor podcasts (RSS-first)"
+  },
+  {
+    "id": "patreon",
+    "version": 1,
+    "matches": ["https://www.patreon.com/*"],
+    "description": "Patreon creator pages (login-walled)"
   }
 ]
