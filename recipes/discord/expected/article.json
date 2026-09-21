@@ -1,0 +1,4 @@
+{
+  "items": 1,
+  "first": { "nativeIdContains": "channels/111/222", "title": "First sample message", "url": "/channels/111/222" }
+}

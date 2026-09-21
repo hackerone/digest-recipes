@@ -1,0 +1,23 @@
+id: discord
+version: 1
+matches:
+  - "https://discord.com/*"
+description: "Discord channels (login-walled)"
+fetchMode: tab-dom
+content:
+  item: "article, [role='article'], .post"
+  id:
+    selector: "a"
+    attribute: "href"
+  title:
+    selector: "h1, h2, h3"
+  url:
+    selector: "a"
+    attribute: "href"
+  author:
+    selector: "a, span"
+  body:
+    selector: "p, span"
+  image:
+    selector: "img"
+    attribute: "src"
